@@ -1,0 +1,30 @@
+.meal-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12px;
+  padding: 14px;
+  overflow: hidden;
+
+  .time-wrapper {
+    display: flex;
+    gap: 2px;
+    font-size: 12px;
+  }
+
+  .calories-wrapper {
+    right: 0px;
+    top: 0px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgb(75, 180, 68);
+    height: 65px;
+    width: 65px;
+    text-align: center;
+  }
+}

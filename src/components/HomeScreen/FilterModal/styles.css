@@ -1,0 +1,36 @@
+.filter-modal {
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  height: 250px;
+  width: 300px;
+  position: fixed;
+  top: 320px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 14px;
+  gap: 10px;
+  color: rgb(130, 130, 130);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+
+  span {
+    font-size: 12px;
+    color: rgb(202, 198, 198);
+  }
+
+  input {
+    background-color: rgb(244, 243, 244);
+    border: none;
+    box-shadow: 0px 0px 0px 1px rgb(75, 180, 68);
+    border-radius: 4px;
+    height: 28px;
+    width: 130px;
+    padding-left: 8px;
+    font-size: 12px;
+  }
+}
