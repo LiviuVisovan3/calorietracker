@@ -10,7 +10,7 @@ Supports adding meals, editing ,filtering and a custom calorie limit for your pl
 
 ### :sparkles: Highlights
 
-- Cleanly separated view / state architecture
+- Modular component-based UI with centralized state management
 
 - Full static typechecking
 
@@ -21,6 +21,10 @@ Supports adding meals, editing ,filtering and a custom calorie limit for your pl
 - [React 18.3.1](https://react.dev/ " React 18.3.1") (with hooks)
 
 - [TypeScript 4.2.4](https://www.typescriptlang.org/ "TypeScript 4.2.4")
+
+- [React Router 6.26.2](https://www.reactrouter.com "React-router-dom 6.26.2")
+
+- [Moment 2.30.1](https://momentjs.com/ "Moment 2.30.1")
 
 <br />
 
